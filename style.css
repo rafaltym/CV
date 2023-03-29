@@ -1,12 +1,14 @@
 body {
 	font-family: Arial;
-	background-color: dimgrey;
-	margin-top: 40px;
-	
+	background-color:gainsboro;
+	width: 960px;
+	margin: 40px auto;
+	box-shadow: 0 0 20px grey;
 }
 
 h2 {
 	font-size: 28px;
+	padding-top: 30px;
 }
 		
 h1 {
@@ -19,12 +21,10 @@ span {
 	
 
 
-section,
+main,
 header {
 	padding: 10px 60px 20px 60px;
-	background-color: peachpuff;
-	width: 960px;
-	margin: 0 auto;
+	background-color: white;
 }
 
 header {
@@ -34,12 +34,24 @@ header {
 	padding-top: 40px;
 }
 
+main div {
+	display: flex;
+	align-items: top;
+	justify-content: space-between;
+}
+
 header ul {
 	list-style: none;
 }
 
 header li {
 	margin-bottom: 15px;
+}
+
+p,
+li {
+ line-height:1.5;
+ font-size:18px;
 }
 
 .address-icon  {
@@ -80,6 +92,4 @@ header li {
 	
 }
 
-p {
- line-height:1.5;
-}
+
