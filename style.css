@@ -1,0 +1,85 @@
+body {
+	font-family: Arial;
+	background-color: dimgrey;
+	margin-top: 40px;
+	
+}
+
+h2 {
+	font-size: 28px;
+}
+		
+h1 {
+	font-size: 36px;
+}
+
+span {
+	color: grey;
+}
+	
+
+
+section,
+header {
+	padding: 10px 60px 20px 60px;
+	background-color: peachpuff;
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+
+header ul {
+	list-style: none;
+}
+
+header li {
+	margin-bottom: 15px;
+}
+
+.address-icon  {
+	width: 16px;
+	height: 16px;
+	border-color: dimgrey;
+	background-color: dimgrey;
+	margin-right:10px;
+	padding: 4px;
+	vertical-align: middle;
+
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.profile-picture {
+	width: 150px; 
+	height: 150pxpx;
+	border: 2px solid dimgrey
+}
+
+.hobbies {
+	list-style: none;
+	padding: 0;
+}
+
+.hobbies-icon {
+	width: 20px;
+	height: 20px;
+	border-color: dimgrey;
+	background-color: dimgrey;
+	margin-right:10px;
+	padding: 4px;
+	vertical-align: middle;
+	margin-bottom: 5px;
+	
+}
+
+p {
+ line-height:1.5;
+}
